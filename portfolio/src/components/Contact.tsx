@@ -234,7 +234,7 @@ const Contact = () => {
                   onChange={e => setFormState(prev => ({ ...prev, name: e.target.value }))}
                   required
                   className="w-full px-5 py-4 bg-charcoal border border-ash rounded-xl text-pearl placeholder-steel focus:border-electric focus:outline-none transition-colors text-base"
-                  placeholder="John Doe"
+                  placeholder=""
                 />
               </div>
 
@@ -250,7 +250,7 @@ const Contact = () => {
                   onChange={e => setFormState(prev => ({ ...prev, email: e.target.value }))}
                   required
                   className="w-full px-5 py-4 bg-charcoal border border-ash rounded-xl text-pearl placeholder-steel focus:border-electric focus:outline-none transition-colors text-base"
-                  placeholder="john@example.com"
+                  placeholder=""
                 />
               </div>
 
@@ -278,7 +278,7 @@ const Contact = () => {
                   required
                   rows={5}
                   className="w-full px-5 py-4 bg-charcoal border border-ash rounded-xl text-pearl placeholder-steel focus:border-electric focus:outline-none transition-colors resize-none text-base"
-                  placeholder="Hi Jenish, I'd like to talk about..."
+                  placeholder=""
                 />
               </div>
 
